@@ -1,0 +1,14 @@
+Sepertinya harus dimulai dulu dengan eksekusi graph_gen.m
+Kemudian dilanjutkan dengan graphGeneratorXML.py
+
+Sepertinya graph_gen.m akan menghasilkan file XML dengan format belum final, sedangkan
+graphGeneratorXML.py akan menghasilkan file XML dengan format final. Kedua program
+tersebut sama-sama menghasilkan pdf dan isinya sedikit beda!
+
+Waktu eksekusi graph_gen.m, directory graphs harus disiapkan dulu. Jika directory ini 
+kagak ada, graph_gen.m akan error. Setelah itu, directory graphs di copy ke dalam 
+directory Archive dan Traffic. Directory Archive dan Traffic dibutuhkan oleh
+graphGeneratorXML.py
+
+Hasil akhir ada di folder Traffic.
+

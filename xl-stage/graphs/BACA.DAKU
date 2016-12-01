@@ -1,0 +1,8 @@
+Note: lihat ../CATATANKU
+
+Directory graphs ini disiapkan supaya waktu eksekusi graph_gen.m tidak muncul error. 
+Nanti, directory graphs ini di copy ke dalam directory Archive dan Traffic. 
+Directory Archive dan Traffic dibutuhkan oleh graphGeneratorXML.py
+
+Note: Hasil akhir ada di folder Traffic.
+

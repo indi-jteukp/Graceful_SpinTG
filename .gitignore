@@ -3,6 +3,8 @@
 *.lo
 *.o
 *.obj
+*.ko
+*.elf
 
 # Precompiled Headers
 *.gch
@@ -22,8 +24,45 @@
 *.la
 *.a
 *.lib
+*.lo
 
 # Executables
 *.exe
 *.out
 *.app
+*.i*86
+*.x86_64
+*.hex
+
+# Directory lainnya
+**/build
+**/experiment
+**/videos
+**/bin
+#**/binaries
+**/include
+**/lib
+**/lib64
+**/.idea
+**/refs
+**/local
+**/.metadata
+**/RemoteSystemsTempFiles
+**/museum
+
+# Yang lain
+*.json
+*.pyc
+*.pro.user*
+*.aplx
+#*.jpg*
+#*.png*
+
+# Yang ini berhubungan dengan xl-stage
+**/graphs/*.pdf
+**/graphs/*.xml
+**/graphs/*.gv
+**/graphs/*.eps
+**/Archive
+**/Traffic
+

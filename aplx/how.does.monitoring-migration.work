@@ -1,0 +1,19 @@
+=============================== Regarding reporting the P2P counter to host from each chip =====================================
+yang perlu diperhatikan:
+1. Hati-hati dengan polusi io_printf
+2. Kalau diagnostic filter di-set local, sepertinya dia menghitung paket yang dikirim ke luar. Sedangkan jika diset non-local,
+   sepertinya dia menghitung paket yang dari luar.
+3. Host bisa membaca (pakai rig?) konfigurasi dari P2P, sehingga nanti bisa memetakan path-nya.
+   Nah, mungkin aja path di ubah oleh program (di internal mesin spinnaker). Dalam hal ini, MONITOR NODE HARUS MEMBERI TAHU HOST!!!!
+   --> future TODO!!!
+
+Mekanisme:
+cmd_rc = TGPKT_NODE_SEND_P2P_CNTR
+seq = node-ID
+arg1 = [high:low] = [northeast:east]
+arg2 = [high:low] = [west:north]
+arg3 = [high:low] = [southwest:south]
+
+--> dikirim tiap detik, dan direfresh (clear) tiap kali habis dikirim
+______________________________________________________________________________________ Regarding reporting the P2P counter _____
+
