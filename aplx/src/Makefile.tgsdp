@@ -1,0 +1,7 @@
+# Output target name
+APP := tgsdp
+
+# List of objects making up the application.
+OBJECTS := $(APP).o helper.o
+
+include Makefile.common

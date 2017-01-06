@@ -23,4 +23,8 @@ DISTFILES += \
     dag0020.xml \
     README \
     ../dag0020.odg \
-    how.does.monitoring-migration.work
+    how.does.monitoring-migration.work \
+    Makefile.common \
+    Makefile.monitor \
+    Makefile.srcsink \
+    Makefile.tgsdp
