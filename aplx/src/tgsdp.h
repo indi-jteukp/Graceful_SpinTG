@@ -1,3 +1,7 @@
+/*
+ * Note: tgsdp is the processing element program that runs on each node, but not in the REGSVP.
+ */
+
 #ifndef TGSDP_H
 #define TGSDP_H
 

@@ -1,5 +1,4 @@
 /* This is special IO that handle SOURCE and SINK data for the task graph.
- * This module also handles traffic monitoring and process migration.
  */
 
 #include "tgsdp.h"

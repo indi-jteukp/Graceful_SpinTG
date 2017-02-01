@@ -1,9 +1,11 @@
 /* SYNOPSIS:
  *   - If run in the same node as SOURCE/SINK, I'm supposed to:
- *       1. monitor the traffic and do traffic management.
- *       2. do process migration, amelioration, etc
- *   - If run in other nodes, I simply "count" the P2P traffic used by sdp
- *   - Where to put me? core-2?
+ *       1. receives TG network info and generate initial mapping
+ *          - Note: in the beginning, all nodes should report available PE so that this
+ *                  monitor program is able to assign correct task ID
+ *       2. monitor the traffic (count P2P traffic) and do traffic management (in the future)
+ *       3. do process migration, amelioration, etc. (by invoking the optimizer cores)
+ *   - If run in other nodes, I monitor P2P traffic used by sdp and alter P2P table (in the future)
  *
  * TODO:
  * 1. Modify diagnostic register, such that:

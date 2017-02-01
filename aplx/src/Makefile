@@ -1,5 +1,5 @@
 #MKFILES = Makefile.tgsdp Makefile.monitor Makefile.srcsink
-MKFILES = Makefile.tgsdp Makefile.monitor
+MKFILES = Makefile.tgsdp Makefile.monitor Makefile.profiler Makefile.srcsink
 
 RM := rm -rf
 LS := ls -l
