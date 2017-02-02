@@ -50,3 +50,8 @@ Task Graph implementation on SpiNNaker
    - Send all information to Master Profiler
 3. Tgsdp, a.k.a PE (processing elements):
    - each core corresponds to one task output; hence, a task node has a max 15 output
+
+## Contributors:
+- indarsugiarto: aplx
+- indi-jteukp: host, xl-stage
+
